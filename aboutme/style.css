@@ -1,0 +1,91 @@
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: lavender;
+  letter-spacing: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: peachpuff;
+  margin-left: 22vw;
+  max-width: 50vw;
+  max-height: 20vh;
+}
+
+/* Main */
+h1 {
+  font-size: 50px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "lefty righty";
+  margin-top: 5vh;
+  margin-left: 8vw;
+}
+
+li {
+  list-style: none;
+  font-size: 30px;
+  max-width: 700px;
+  max-height: 800px;
+  border: double 15px cadetblue;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.left {
+  grid-area: lefty;
+  background-color: wheat;
+}
+
+.right {
+  grid-area: righty;
+}
+
+.pic {
+  /* float: right; */
+  margin-left: 60px;
+  width: 450px;
+  height: 500px;
+  padding: 5px;
+  background-color: wheat;
+  border: double 10px cadetblue;
+  border-radius: 100px;
+}
+
+/* Sec */
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+div {
+  width: 800px;
+  height: 450px;
+  background-color: wheat;
+  border: groove 10px cadetblue;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 40px;
+}
